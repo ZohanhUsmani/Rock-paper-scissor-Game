@@ -10,7 +10,7 @@ def RPS():
         if Player == "exit":
             print("Thank you for playing")
             break
-        if Player == "rock" and Comp == "paper":
+        elif Player == "rock" and Comp == "paper":
             print("Comp Win!")
             RPS()
         elif Player == "scissor" and Comp == "rock":
